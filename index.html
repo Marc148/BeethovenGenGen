@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beethoven GenGen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="headtitle">Beethoven GenGen</div>
+    </div>
+    <div id="buttons">
+        <div id="main">
+            <p id="subtitle">Mondscheinsonate</p>
+            <table id="matrix">
+                <!-- Spalte 1 - Lofi-->
+                <tr>
+                    <td><button class="genre">Lofi</button></td>
+                    <td><button class="button" id="melody" data-index="0">Chords</button></td>
+                    <td><button class="button" id="melody" data-index="1">Bell </button></td>
+                    <td><button class="button" id="atmo" data-index="2">Rain </button></td>
+                    <td><button class="button" id="drums" data-index="3">Kick</button></td>
+                    <td><button class="button" id="drums" data-index="4">Clap</button></td>
+                    <td><button class="button" id="drums" data-index="5">HiHat</button></td>
+                    <td><button class="button" id="drums" data-index="6">Rim</button></td>
+                </tr>
+
+                <!-- Spalte 2 - Trap-->
+                <tr>
+                    <td><button class="genre">Trap</button></td>
+                    <td><button class="button" id="melody" data-index="7">Melody</button></td>
+                    <td><button class="button" id="bass" data-index="8">808</button></td>
+                    <td><button class="button" id="drums" data-index="9">Kick</button></td>
+                    <td><button class="button" id="drums" data-index="10">Clap</button></td>
+                    <td><button class="button" id="drums" data-index="11">HiHat</button></td>
+                    <td><button class="button" id="drums" data-index="12">OpenHat</button></td>
+                    <td><button class="button" id="drums" data-index="13">Perc</button></td>
+                </tr>
+
+                <!-- Spalte 3 - Pop -->
+                <tr>
+                    <td><button class="genre">Pop</button></td>
+                    <td><button class="button" id="melody" data-index="14">Chords</button></td>
+                    <td><button class="button" id="melody" data-index="15">Bell</button></td>
+                    <td><button class="button" id="atmo" data-index="16">Pad</button></td>
+                    <td><button class="button" id="bass" data-index="17">Bass</button></td>
+                    <td><button class="button" id="drums" data-index="18">Kick</button></td>
+                    <td><button class="button" id="drums" data-index="19">Clap</button></td>
+                    <td><button class="button" id="drums" data-index="20">HiHat</button></td>
+                    <td><button class="button" id="drums" data-index="21">Snap</button></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div id="main">
+            <p id="subtitle">Für Elise</p>
+
+            <table id="matrix">
+                <!-- Spalte 1 - Lofi-->
+                <tr>
+                    <td><button class="genre">Lofi</button></td>
+                    <td><button class="button" id="melody" data-index="22">Melody</button></td>
+                    <td><button class="button" id="atmo" data-index="23">Rain </button></td>
+                    <td><button class="button" id="drums" data-index="24">Kick</button></td>
+                    <td><button class="button" id="drums" data-index="25">Clap</button></td>
+                    <td><button class="button" id="drums" data-index="26">HiHat</button></td>
+                    <td><button class="button" id="drums" data-index="27">OpenHat</button></td>
+                </tr>
+
+                <!-- Spalte 2 - Trap-->
+                <tr>
+                    <td><button class="genre">Trap</button></td>
+                    <td><button class="button" id="melody" data-index="28">Melody</button></td>
+                    <td><button class="button" id="bass" data-index="29">808</button></td>
+                    <td><button class="button" id="drums" data-index="30">Kick</button></td>
+                    <td><button class="button" id="drums" data-index="31">Clap</button></td>
+                    <td><button class="button" id="drums" data-index="32">HiHat</button></td>
+                    <td><button class="button" id="drums" data-index="33">Crash</button></td>
+                    <td><button class="button" id="drums" data-index="34">Snare</button></td>
+                </tr>
+
+                <!-- Spalte 3 - Pop -->
+                <tr>
+                    <td><button class="genre">Pop</button></td>
+                    <td><button class="button" id="melody" data-index="35">Chords</button></td>
+                    <td><button class="button" id="melody" data-index="36">Pluck</button></td>
+                    <td><button class="button" id="melody" data-index="37">Strings</button></td>
+                    <td><button class="button" id="bass" data-index="38">Bass</button></td>
+                    <td><button class="button" id="drums" data-index="39">Kick</button></td>
+                    <td><button class="button" id="drums" data-index="40">Clap</button></td>
+                    <td><button class="button" id="drums" data-index="41">HiHat</button></td>
+                    <td><button class="button" id="drums" data-index="42">Rim</button></td>
+                    <td><button class="button" id="drums" data-index="43">Snare</button></td>
+                </tr>
+            </table>
+            <p id="subsubtitle">Beim Kombinieren der Buttons kann sich die Scale unterscheiden.</p>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="script/index.js"></script>
+
+    <!--Footer-->
+    <div id="footer">
+        <a href="mailto:marc.wittmann@hs-wittmann@hs-furtwangen.de">marc.wittmann@hs-furtwangen.de</p>
+    </div>
+</body>
+
+</html>
