@@ -6,7 +6,7 @@ const sounds = [
     'music/MS_trap/MS_trap_Melody.mp3', 'music/MS_trap/MS_trap_808.mp3', 'music/MS_trap/MS_trap_Kick.mp3', 'music/MS_trap/MS_trap_Clap.mp3', 'music/MS_trap/MS_trap_HiHat.mp3', 'music/MS_trap/MS_trap_OpenHat.mp3', 'music/MS_trap/MS_trap_Perc.mp3',
     'music/MS_pop/MS_pop_Melody.mp3', 'music/MS_pop/MS_pop_Bell.mp3', 'music/MS_pop/MS_pop_Pad.mp3', 'music/MS_pop/MS_pop_Bass.mp3', 'music/MS_pop/MS_pop_Kick.mp3', 'music/MS_pop/MS_pop_Clap.mp3', 'music/MS_pop/MS_pop_HiHat.mp3', 'music/MS_pop/MS_pop_Snap.mp3',
 
-    'music/FE_lofi/FE_lofi_Melody.mp3', 'music/FE_lofi/FE_lofi_rain.mp3', 'music/FE_lofi/FE_lofi_Kick.mp3', 'music/FE_lofi/FE_lofi_Clap.mp3', 'music/FE_lofi/FE_lofi_HiHat.mp3', 'music/FE_lofi/FE_lofi_OpenHat.mp3',
+    'music/FE_lofi/FE_lofi_Melody.mp3', 'music/FE_lofi/FE_lofi_Rain.mp3', 'music/FE_lofi/FE_lofi_Kick.mp3', 'music/FE_lofi/FE_lofi_Clap.mp3', 'music/FE_lofi/FE_lofi_HiHat.mp3', 'music/FE_lofi/FE_lofi_OpenHat.mp3',
     'music/FE_trap/FE_trap_Melody.mp3', 'music/FE_trap/FE_trap_808.mp3', 'music/FE_trap/FE_trap_Kick.mp3', 'music/FE_trap/FE_trap_Clap.mp3', 'music/FE_trap/FE_trap_HiHat.mp3', 'music/FE_trap/FE_trap_Crash.mp3', 'music/FE_trap/FE_trap_Snare.mp3',
     'music/FE_pop/FE_pop_Piano.mp3', 'music/FE_pop/FE_pop_Pluck.mp3', 'music/FE_pop/FE_pop_Strings.mp3', 'music/FE_pop/FE_pop_Bass.mp3', 'music/FE_pop/FE_pop_Kick.mp3', 'music/FE_pop/FE_pop_Clap.mp3', 'music/FE_pop/FE_pop_HiHat.mp3', 'music/FE_pop/FE_pop_Rim.mp3', 'music/FE_pop/FE_pop_Snare.mp3'
 ];
